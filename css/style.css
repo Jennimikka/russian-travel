@@ -1,5 +1,5 @@
 
-@import url(../fonts/Inter Web/inter.css);
+@import url(../fonts/inter/inter.css);
 
 
 .page {
@@ -63,11 +63,16 @@ height: 1005px;
 width: 984px;
 padding-top: 56px;
 margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+
 
 }
 .lead__title {
+
 height: 200px;
-width: 720px;
+max-width: ;width: 720px;
 margin: 0;
 padding-left: 132px;
 padding-right: 132px;
@@ -78,37 +83,38 @@ font-weight: 900;
 line-height: 100px;
 letter-spacing: 0em;
 text-align: center;
+justify-content: center;
+
 
 }
 .lead__subtitle {
 height: 72px;
-width: 640px;
+max-width: 640px;
 padding-top: 32px;
 text-align: center;
 color: #FFFFFF;
 margin-top: 0;
 margin-bottom: 0;
-font-family: Inter;
 font-size: 30px;
 font-weight: 400;
 line-height: 36px;
-letter-spacing: 0em;
+justify-content: center;
+
 }
 .lead__image {
 padding-top: 64px;
 height: 615px;
-width: 984px;
+max-width: 984px;
 }
 .lead__caption {
 padding-top: 8px;
 height: 14px;
 width: 158px;
-font-family: Inter;
 font-size: 10px;
 font-weight: 400;
 line-height: 14px;
 letter-spacing: 1.5px;
-text-align: start;
+align-self: start;
 color: #FFFFFF;
 
 }
@@ -184,10 +190,116 @@ width: 284px;
   grid-auto-flow: row;
 
 }
+.places {
+  padding-top: 12px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.places__conteiner {
+  display: flex;
+  flex-direction: row;
+
+ max-width: 984px;
+
+}
+.place {
+ display: flex;
+ flex-direction: column;
+
+}
+
+.place__title {
+padding-top: 80px;
+max-width: 460px;
+font-size: 72px;
+font-weight: 900;
+line-height: 76px;
+text-align: left;
+margin: 0;
+padding-bottom: 0;
+color: #FFFFFF;
+
+}
 
 .place__image {
 height: 460px;
 width: 460px;
+padding-top: 48px;
+
+
 
 }
+.place__main-text {
+display: flex;
+flex-direction: column;
+padding-top: 110px;
+padding-left: 40px;
+height: 145px;
+max-width: 484px;
+margin: 0;
 
+}
+.place__main-text_long{
+  padding-top: 186px;
+}
+
+.place__website {
+height: 46px;
+width: 456px;
+color: #FFFFFF;
+}
+.two-columns {
+padding-top: 48px ;
+}
+.two-columns__paragraph {
+padding-bottom: 26px;
+width: 484px;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+text-align: left;
+margin: 0;
+color: #FFFFFF;
+}
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
+}
+.url-heading {
+height: 12px;
+width: 456px;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 2px;
+text-align: left;
+margin: 0;
+padding-bottom: 12px;
+color: #FFFFFF;
+
+}
+.place__link {
+height: 22px;
+max-width: 456px;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+color: #FFFFFF;
+text-decoration: underline;
+
+}
+.cover {
+background-image: url(../images/cover__background\ .png);
+background-repeat: no-repeat;
+background-size: cover;
+ max-width: 1184px;
+ height: 740px;
+d
+
+
+
+
+}
