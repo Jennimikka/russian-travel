@@ -11,7 +11,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
    text-rendering: optimizeLegibility;
-   border: solid 4px yellow;
+   
 }
 
 @media screen and (max-width: 1024px) {
