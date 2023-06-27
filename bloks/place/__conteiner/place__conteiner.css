@@ -1,0 +1,19 @@
+.place__conteiner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ padding-top: 80px;
+ }
+
+@media screen and (max-width: 768px) {
+.place__conteiner {
+  padding-top: 73px;
+  }
+}
+@media screen and (max-width: 320px) {
+.place__conteiner {
+  padding-top: 50px;
+  flex-direction: column;
+
+  }
+}

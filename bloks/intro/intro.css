@@ -1,0 +1,33 @@
+.intro {
+
+  box-sizing: 429px;
+  max-width: 690px;
+  padding-left: 148px;
+  text-align: start;
+  padding-top: 114px;
+
+}
+@media screen and (max-width: 1024px) {
+.intro {
+  padding-left: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+.intro {
+  max-width: 720px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 110px;
+  }
+}
+@media screen and (max-width: 320px) {
+.intro {
+  max-width: 288px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 64px;
+
+
+  }
+}

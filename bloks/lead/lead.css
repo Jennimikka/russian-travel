@@ -1,0 +1,31 @@
+
+.lead {
+  max-height: 1005px;
+  max-width: 984px;
+  padding-top: 56px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+@media screen and (max-width: 1024px) {
+.lead {
+  max-width: 928px;
+  max-height: 962px;
+  }
+}
+@media screen and (max-width: 768px) {
+.lead {
+  max-width: 768px;
+  max-height: 862px;
+  }
+}
+@media screen and (max-width: 320px) {
+.lead {
+
+  max-height: 406px;
+  max-width: 320px;
+  }
+}
