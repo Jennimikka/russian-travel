@@ -24,6 +24,7 @@
 
 @media screen and (max-width: 767px) {
   .place__title {
+    max-width: 288px;
     padding-left: 16px;
     align-self: flex-start;
     font-size: 32px;
