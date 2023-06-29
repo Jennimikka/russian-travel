@@ -2,19 +2,21 @@
   width: 460px;
   font-size: 72px;
   font-weight: 900;
+  font-style: normal;
   line-height: 76px;
   text-align: left;
   align-self: flex-end;
   margin: 0;
   padding-bottom: 0;
   color: #FFFFFF;
-
 }
+
 @media screen and (max-width: 1279px) {
 .place__title {
   width: 440px;
   }
 }
+
 @media screen and (max-width: 1023px) {
 .place__title {
   font-size: 42px;
@@ -22,6 +24,7 @@
   line-height: 46px;
   }
 }
+
 @media screen and (max-width: 767px) {
 .place__title {
   align-self: flex-start;

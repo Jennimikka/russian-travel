@@ -4,6 +4,7 @@
   line-height: 18px;
   text-align: left;
   text-decoration: none;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 767px) {
