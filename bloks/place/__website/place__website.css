@@ -1,7 +1,7 @@
 .place__website {
   max-height: 152px;
   max-width: 456px;
- 
+
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -21,6 +21,7 @@
 @media screen and (max-width: 767px) {
 .place__website {
   max-width: 320px;
+  padding-left: 16px;
 
 
   }
