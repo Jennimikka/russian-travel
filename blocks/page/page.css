@@ -9,9 +9,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  box-sizing: border-box;
-  border: solid 4px yellow;
-
+  box-sizing: content-box;
 }
 
 @media screen and (max-width: 1279px) {
