@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: flex-start;
   row-gap: 26px;
-  max-width: 484px;
+  min-width: 484px;
   margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
   .place__two-columns {
-    max-width: 456px;
+    min-width: 456px;
   }
 }
 
